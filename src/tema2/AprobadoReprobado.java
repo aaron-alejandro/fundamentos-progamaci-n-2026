@@ -1,8 +1,10 @@
+package tema2;
+
 import java.util.Scanner;
 /*
  *INSTITUTO TECNOLOGICO DE PACHUCA
  * FUNDAMENTOS DE PROGRAMACIÓN
- * EJEERCICIO: Jubilacion
+ * EJEERCICIO: tema2.Jubilacion
  * AARON ALEJANDRO ANTONIO LORENZO 26201026
  * 25-09-2026 */
 public class AprobadoReprobado {

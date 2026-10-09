@@ -1,3 +1,5 @@
+package tema2;
+
 import java.util.Scanner;
 
 public class Salario {
@@ -21,7 +23,7 @@ public class Salario {
             System.out.println("Nombre: " + nombre);
             System.out.println("Horas trabajadas: " + horas);
             System.out.println("Pago por hora: " + salario);
-            System.out.println("Salario total: " + pago);
+            System.out.println("tema2.Salario total: " + pago);
         } else {
             double hExtra,pExtra;
             hExtra = horas-HORAS;
@@ -32,7 +34,7 @@ public class Salario {
             System.out.println("Horas normales; " + HORAS);
             System.out.println("Pago por hora: " + salario);
             System.out.println("Horas extra: " + hExtra);
-            System.out.println("Salario total: " + pago);
+            System.out.println("tema2.Salario total: " + pago);
         }
     }
 }

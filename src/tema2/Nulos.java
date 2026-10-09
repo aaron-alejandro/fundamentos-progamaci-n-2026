@@ -1,3 +1,5 @@
+package tema2;
+
 public class Nulos {
     static void main() {
 

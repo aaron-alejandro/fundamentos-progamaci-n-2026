@@ -1,3 +1,5 @@
+package tema2;
+
 import java.util.Scanner;
 
 public class Comision {
@@ -16,7 +18,7 @@ public class Comision {
 
             System.out.println("Retiro autorizado:");
             System.out.println("Monto retirado: $" + retiro);
-            System.out.println("Comision: $" +  COMISION);
+            System.out.println("tema2.Comision: $" +  COMISION);
             System.out.println("Saldo: $" + saldoFinal);
         }else {
             System.out.println("Error");
