@@ -15,10 +15,10 @@ public class NumeroEntero2 {
         do {
             int N = 0;
 
-            System.out.println("Ingresa un numero entero positivo (N): ");
+            System.out.println("Ingresa un numero entero: ");
             N = input.nextInt();
             while (N <= 0) {
-                System.out.println("Numero no valido. Ingresa un entero positivo: ");
+                System.out.println("Numero no valido. Ingresa un numero positivo: ");
                 N = input.nextInt();
             }
 
@@ -57,13 +57,13 @@ public class NumeroEntero2 {
                 }
             }
 
-            System.out.println("\n--- RESULTADOS DEL ANÁLISIS (1 a " + N + ") ---");
+            System.out.println("--- RESULTADOS DEL ANÁLISIS (1 a " + N + ") ---");
             System.out.println("Suma de los números divisibles entre 4 = " + sumaDiv4);
             System.out.println("Cantidad de números múltiplos de 3 = " + contMultiplos3);
             System.out.println("Cantidad de números divisibles entre ambos (3 y 4) = " + contAmbos);
 
             int opcionSwitch;
-            System.out.println("\n¿Qué estadísticas deseas visualizar?");
+            System.out.println("¿Qué estadísticas deseas visualizar?");
             System.out.println("1) Estadísticas de números PARES");
             System.out.println("2) Estadísticas de números IMPARES");
             System.out.println("3) Estadísticas de MÚLTIPLOS DE 5");
@@ -72,17 +72,17 @@ public class NumeroEntero2 {
 
             switch (opcionSwitch) {
                 case OPCION_PARES:
-                    System.out.println("\n--- Estadísticas de Pares ---");
+                    System.out.println("--- Estadísticas de Pares ---");
                     System.out.println("Cantidad de pares: " + countPares);
                     System.out.println("Suma de pares: " + sumaPares);
                     break;
                 case OPCION_IMPARES:
-                    System.out.println("\n--- Estadísticas de Impares ---");
+                    System.out.println("--- Estadísticas de Impares ---");
                     System.out.println("Cantidad de impares: " + countImpares);
                     System.out.println("Suma de impares: " + sumaImpares);
                     break;
                 case OPCION_MULTIPLOS_5:
-                    System.out.println("\n--- Estadísticas de Múltiplos de 5 ---");
+                    System.out.println("--- Estadísticas de Múltiplos de 5 ---");
                     System.out.println("Cantidad de múltiplos de 5: " + countMultiplos5);
                     break;
                 default:
@@ -90,12 +90,11 @@ public class NumeroEntero2 {
                     break;
             }
 
-            System.out.println("\n¿Desea cerrar el programa? \n1) SI  \n2) NO");
+            System.out.println("¿Desea cerrar el programa? \n1) SI  \n2) NO");
             respuestaDoWhile = input.nextInt();
 
         } while (respuestaDoWhile != 1);
 
-        input.close();
         System.out.println("Programa finalizado.");
     }
 }
